@@ -36,13 +36,13 @@ Each file in the system is represented by the `File` class, which includes the f
 
 ## How to Run
 ### Compile the code using a C compiler:
-bash
+```bash
 gcc -o FileManagementSystem FileManagementSystem.c
-
+```
 ### Run the executable:
-bash
+```bash
 ./FileManagementSystem
-
+```
 
 ## User Guide
 
@@ -56,30 +56,30 @@ Select options from the menu to perform desired operations:
 ### Input/Output Example:
 
 #### Add File:
-plaintext
+```plaintext
 Enter file name: file1  
 Enter file size (in KB): 100  
 Enter file type: txt
 
 File "file1" inserted successfully.  
-
+```
 
 ### Delete File:
-plaintext
+```plaintext
 Enter the file name to delete: file1
 
 File "file1" deleted successfully.
-
+```
 
 ### Display Files:
-plaintext
+```plaintext
 File Name: file1  
 Size: 100 KB  
 Type: txt
-
+```
 
 ## Example Run:
-plaintext
+```plaintext
 File Management System  
 1. Add File  
 2. Delete File  
@@ -123,7 +123,7 @@ Type: jpg
 Enter your choice: 4
 
 Exiting...  
-
+```
 
 ## Key Functions
 
